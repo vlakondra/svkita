@@ -1,3 +1,13 @@
+//----------------
+import { env } from '$env/dynamic/private';
+import { DATABASE_URL } from '$env/static/private';
+import { SCHEMA_PATH } from '$env/static/private';
+console.log(process.env.DATABASE_URL,
+	DATABASE_URL,
+	SCHEMA_PATH,
+	env.COMPUTERNAME)
+//----------------
+
 import * as auth from '$lib/server/auth';
 import { fail, redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
