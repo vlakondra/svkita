@@ -1,3 +1,5 @@
+!!! for err https://github.com/huntabyte/shadcn-svelte/issues/1745
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
